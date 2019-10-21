@@ -1,11 +1,10 @@
 using Documenter
-using Plots
-using CapacityExpansion
+using CapacityExpansionData
 
-makedocs(sitename="CapacityExpansion.jl",
+makedocs(sitename="CapacityExpansionData.jl",
     authors = "Elias Kuepper, and Holger Teichgraeber",
     pages = [
-        "Data" => ["provided_data.md", "csv_structure.md", "README_GER_18.md", "README_GER_1.md", "README_CA_14.md", "README_CA_1.md", "README_TX_1.md"]
+        "Data" => ["provided_data.md", "README_GER_18.md", "README_GER_1.md", "README_CA_14.md", "README_CA_1.md", "README_TX_1.md"]
         ],
     format = Documenter.HTML(assets = [
         "assets/clust_for_opt_text.svg",
