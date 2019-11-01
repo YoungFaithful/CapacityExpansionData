@@ -5,3 +5,6 @@ desc = "Capacity Expansion Data for julia package CapacityExpansion"
 uuid = "2c92f082-f457-11e9-1715-ebb1b5fff37b"
 authors = ["Lucas Elias Kuepper <elias.kuepper@rwth-aachen.de>"]
 version = "0.1.0"
+
+[compat]
+julia = "^1.0"
