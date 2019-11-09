@@ -1,7 +1,8 @@
 Provided Data
 =========
-The `datapath` for provided data can be found with the function `datapath()`:
+The provided data can be used using the functions:
 
 ```@docs
-CapacityExpansionData.data_path
+load_cep_data_provided
+load_timeseries_data_provided
 ```

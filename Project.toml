@@ -1,7 +1,15 @@
 name = "CapacityExpansionData"
+uuid = "2c92f082-f457-11e9-1715-ebb1b5fff37b"
 keywords = ["energy", "capacity", "JuMP", "optimization"]
 license = "MIT"
 desc = "Capacity Expansion Data for julia package CapacityExpansion"
-uuid = "2c92f082-f457-11e9-1715-ebb1b5fff37b"
 authors = ["Lucas Elias Kuepper <elias.kuepper@rwth-aachen.de>"]
-version = "0.1.0"
+version = "0.2.0"
+
+[deps]
+CapacityExpansion = "c5f7ca31-19be-526c-ac1d-e0dcac83edb8"
+Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
+
+[compat]
+CapacityExpansion = "^0.3.0"
+Reexport = "^0.2.0"
